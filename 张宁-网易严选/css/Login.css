@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+a {
+    text-decoration: none
+}
+
+li {
+    list-style: none
+}
+
+input{
+    background: none;
+    border:none;
+    border: 1px solid #a9a9a9;
+    
+}
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clearFix:after {
+    content: "";
+    display: block;
+    clear: both
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+input::-webkit-calendar-picker-indicator {
+    display: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+/*===============================================*/
+
+/*登录页css*/
+
+.zn_box {
+    width: 100%;
+    height: 100%;
+    background: url(../img/6c20940c7b36612b0ed4d7b0a8a4aafe.jpg)no-repeat;
+    position: relative;
+}
+
+
+/*登陆块*/
+
+input {
+    outline: medium;
+}
+
+.zn_login {
+    width: 386px;
+    height: 459px;
+    border: 1px solid #e8e8e8;
+    background: #fff;
+    position: absolute;
+    right: 0;
+    top: 84px;
+}
+
+
+/*h3标题*/
+
+.zn_title {
+    margin: 30px 86px;
+}
+
+
+/*账号*/
+
+.zn_center {
+    width: 316px;
+    height: 40px;
+    border: 2px solid #ccc;
+    border-radius: 7px;
+    margin: 0 auto;
+}
+
+.zn_pic {
+    width: 40px;
+    height: 40px;
+    background: url("../img/登陆背景图.png")no-repeat;
+    background-position: center;
+    border: none;
+    position: relative;
+}
+
+.zn_text {
+    width: 264px;
+    height: 40px;
+    border: none;
+    font-size: 16px;
+    margin-left: 10px;
+    line-height: 40px;
+}
+
+.zn_span {
+    position: absolute;
+    left: 38px;
+    top: 8px;
+    color: #ccc;
+}
+
+
+/*密码*/
+
+.zn_center1 {
+    width: 316px;
+    height: 40px;
+    border: 2px solid #ccc;
+    border-radius: 7px;
+    margin: 10px auto;
+}
+
+.zn_pic1 {
+    width: 40px;
+    height: 40px;
+    background: url("../img/登陆背景图2.png")no-repeat;
+    background-position: center;
+    border: none;
+    position: relative;
+}
+
+
+/*登陆*/
+
+.zn_btn {
+    width: 356px;
+    height: 50px;
+    background: #b4a078;
+    color: #fff;
+    font-size: 20px;
+    line-height: 50px;
+    margin: 30px 15px;
+    border-radius: 7px;
+}
+
+
+/*忘记密码*/
+
+.zn_key {
+    width: 356px;
+    height: 20px;
+    margin-left: 15px;
+}
+
+.zn_password {
+    font-size: 16px;
+    color: #ccc;
+}
+
+
+/*其他方式登陆*/
+
+.zn_try {
+    width: 356px;
+    height: 20px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.zn_other {
+    width: 110px;
+    height: 1px;
+    border-top: 2px solid #ccc;
+    margin-top: 10px;
+}
+
+.zn_other1 {
+    width: 110px;
+    height: 1px;
+    border-top: 2px solid #ccc;
+    margin-top: 10px;
+}
+
+.zn_cross {
+    color: #ccc;
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 18px;
+}
+
+
+/*微信微博QQ*/
+
+.zn_network {
+    width: 356px;
+    margin-top: 15px;
+}
+
+.zn_network1 {
+    width: 40px;
+    height: 40px;
+    margin-left: 120px;
+}
+
+.zn_wechatpic {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: url("../img/91e4210ce769ec652d85015b00418c40.png")no-repeat;
+    left: 0;
+    top: 0;
+}
+
+.zn_wechat {
+    display: block;
+    width: 40px;
+    height: 30px;
+    color: #ccc;
+    font-size: 16px;
+}
+
+.zn_network2 {
+    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+}
+
+.zn_QQpic {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: url("../img/91e4210ce769ec652d85015b00418c40.png")no-repeat;
+    left: 76px;
+    top: 0;
+}
+
+.zn_QQ {
+    display: block;
+    width: 40px;
+    height: 30px;
+    color: #ccc;
+    font-size: 16px;
+}
+
+.zn_network3 {
+    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+}
+
+.zn_weibopic {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: url("../img/91e4210ce769ec652d85015b00418c40.png")no-repeat;
+    left: 76px;
+    top: 0;
+}
+
+.zn_weibo {
+    display: block;
+    width: 40px;
+    height: 30px;
+    color: #ccc;
+    font-size: 16px;
+}
+
+
+/*------------------------------------------------------------------*/
+
+
+/*注册页css*/
+
+
+/*整体背景色*/

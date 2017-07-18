@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>网易严选账号中心</title>
+		<link rel="stylesheet" href=" ./css/zhuce.css">
+		<link rel="stylesheet" href="./css/iconfont.css">
+
+	</head>
+
+	<body>
+		<!--最外边的div-->
+		<div class="zn_collective">
+			<!--<!-总体的宽-->
+			<div class="zn_whole">
+				<!--头部-->
+				<div class="zn_hd clearFix">
+					<div class="zn_logo fl"></div>
+					<span class="zn_already fr">已有账号？去<a href="javascript:;">登陆</a></span>
+				</div>
+				<!--/*此乃文本框那嘎达*/-->
+				<div class="zn_formal classFix">
+					<!--/*h3标题*/-->
+					<h3 class="zn_article">注册账号</h3>
+					<!--/*文本框*/-->
+					<div class="zn_data"id="cjb0">
+						<span>账号：</span>
+						<input type="text" placeholder="网易邮箱/手机号/其他邮箱" class="zn_format" id="input_account" autoComplete='on' list="mail" />
+						<datalist id="mail">
+						<option value="@163.com">
+						<option value="@126.com">
+						<option value="@yeah.net">
+						<option value="@188.com">
+						<option value="@vip.163.com">
+						<option value="@vip.126.com">
+					</datalist>
+						<i class="iconfont icon-x z_close"></i>
+						<b>帐号须由6-18个字符组成</b>
+					</div>
+					<div class="zn_data" id="cjb">
+						<span>密码：</span>
+						<input type="password" placeholder="6-16位密码，区分大小写" class="zn_format" id="pwd" autoComplete='on' />
+						<i class="iconfont icon-x z_close"></i>
+						<b id="b1">密码须由6-16个字符组成，区分大小写</b>
+					</div>
+					<div class="zn_data" id="cjb1">
+						<span>确认密码：</span>
+						<input type="password" placeholder="再次输入密码" class="zn_format" id="repwd" autoComplete='on' />
+						<i class="iconfont icon-x z_close"></i>
+						<b id="b2">两次输入的密码不一样</b>
+					</div>
+					<div class="zn_data">
+						<span>验证码：</span>
+						<input type="text" placeholder="请输入验证码" class="zn_format zn_data1" autoComplete='on' />
+						<i class="iconfont icon-x z_close"></i>
+					</div>
+					<div class="zn_data" id="cjb2">
+						<span>手机号：</span>
+						<input type="text" placeholder="11位手机号" class="zn_format" autoComplete='on' id="phone" />
+						<i class="iconfont icon-x z_close"></i>
+						<b id="b3">请输入正确的手机号</b>
+					</div>
+					<!--/*切换国际手机*/-->
+					<div class="zn_data2">
+						<a href="javascript:;">切换到国际手机</a>
+						<p>忘记密码时，可通过手机快速找回！</p>
+					</div>
+					<div class="zn_data">
+						<span>短信验证码：</span>
+						<input type="text" placeholder="输入短信验证码" class="zn_format1" />
+						<i class="iconfont icon-x z_close"></i>
+						<button type="button" class="zn_format2">获取短信验证码</button>
+					</div>
+					<!--注册提交-->
+					<div class="zn_tail">
+						<button type="button" class="zn_register" />注 册</button>
+						<p class="zn_tailp">
+							<input type="checkbox"> 用户勾选即代表同意
+							<a href="javascript:;">《服务条款》</a> 和
+							<a href="javascript:;">《网络游戏用户隐私保护和个人信息利用政策》</a>
+						</p>
+					</div>
+					<!--最后一张图-->
+					<div class="zn_tailpic">
+						<a href="javascript:;">
+							<img src="images/next.png" alt="" />
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="./js/zhuce.js"></script>
+	</body>
+
+</html>

@@ -1,0 +1,12 @@
+*{margin:0;padding:0;}
+a{text-decoration: none;}
+li{list-style: none;}
+.fl{float: left;}
+.fr{float: right;}
+.clearFix:after{content:'';display: block;clear:both;}
+.re{position: relative;}
+.ab{position: absolute;}
+.fx{position: fixed;}
+img{vertical-align: top;}
+
+.clearfix::after{content: '';display: block;clear: both;}
